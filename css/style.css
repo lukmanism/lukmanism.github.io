@@ -1,0 +1,152 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #333;
+	line-height: 16px;
+	text-align: center;
+}
+p{
+	margin: 0px;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 0px;
+}
+h3{
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.info{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+.info ul{
+	padding: 0px;
+	margin: 0px;
+}
+.info ul li{
+	display: inline;
+	list-style-type: none;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-image: url(../images/icon_popup.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	line-height: 16px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 16px;
+}
+.info ul li:first-child{
+	background-image: url(../images/icon_popin.png);
+}
+#container {
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	z-index: 99;
+	width: 100%;
+	text-align: left;
+}
+#anothercontainer {
+    height: auto !important;
+    margin: 0 auto;
+    position: relative;
+    width: 80%;
+}
+#header {
+	background-color: white;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 10px #888888;
+    font-family: 'BebasNeueRegular';
+    height: auto !important;
+    opacity: 0.95;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    top: -87px;
+}
+#header h3 {
+	font-size: 36px;
+	color: #bababa;
+	font-weight: normal;
+	line-height: 26px;
+	float: right;
+	width: 100%;
+	text-align: right;
+}
+
+#header ul {
+	margin: 0px;
+	float: right;
+	padding: 0px;
+}
+#header ul li {
+	display: inline;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#header ul li a {
+	color: #d2d2d2;
+	font-size: 24px;
+	line-height: 26px;
+	letter-spacing: -1px;
+	padding-left: 18px;
+}
+#header ul li a:hover {
+	background-image: url(../images/f2.png);
+	background-repeat: no-repeat;
+	background-position: 4px center;
+	text-decoration: none;
+}
+.awards {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+}
+.info{
+}
+.info strong,
+.awards strong{
+	color: #d2d2d2;
+	font-size: 20px;
+	font-family: 'BebasNeueRegular';
+	font-weight: normal;
+}
+.awards h2{
+	color: #d2d2d2;
+	font-size: 24px;
+	font-family: 'BebasNeueRegular';
+	font-weight: normal;
+}
+.flush_right{
+	text-align: right;
+}
+.pardon {
+	font-size: 10px;
+	font-style: italic;
+}

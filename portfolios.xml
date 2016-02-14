@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<markers> 
+	<marker name="Sekolah Seri Cahaya" desc="static HTML/ CSS" url="www.sericahaya.edu.my" icon="green" lat="5.528510525692801" lng="100.79132080078125"/>
+	<marker name="Sekolah Seri Suria" desc="static HTML/ CSS" url="www.serisuria.edu.my" icon="pink" lat="5.185320480244929" lng="100.77896118164062"/>
+	<marker name="Alfa College" desc="static PHP/ CSS" url="www.alfa.edu.my" icon="" lat="5.319337884572724" lng="101.26785278320312"/>
+	<marker name="Real Education Group" desc="static HTML/ CSS" url="www.real.edu.my" icon="" lat="5.276264009138815" lng="102.17559814453125"/>
+	<marker name="Local Wedding Site" desc="Joomla 1.0.x/ PHP/ MySql/ CSS" url="www.weddingchannel.com.my" icon="green" lat="4.986977441713361" lng="102.47772216796875"/>
+	<marker name="Ayam Brands website" desc="static PHP/ CSS" url="www.ayambrand-recipes.com" icon="" lat="4.56821141268194" lng="101.91741943359375"/>
+	<marker name="Ayam Brands Australia " desc="newsblaster system/ PHP/ MySql" url="www.ayam.com" icon="pink" lat="3.9683810004087827" lng="101.502685546875"/>
+	<marker name="Ayam Brands Singapore" desc="newsblaster system/ PHP/ MySql" url="www.ayambrand.com.sg/newsadmin" icon="" lat="3.7984839750369743" lng="102.1234130859375"/>
+	<marker name="Ayam Brands Hong Kong" desc="newsblaster system/ PHP/ MySql" url="www.ayambrand.com.hk/newsadmin" icon="" lat="3.9930406027902787" lng="102.8485107421875"/>
+	<marker name="Ayam Brands Malaysia" desc="newsblaster system/ PHP/ MySql" url="www.ayam-brand.com.my/newsadmin" icon="green" lat="3.91" lng="102"/>	
+	<marker name="Federal Furniture" desc="static HTML/ CSS/ JQuery" url="www.ffi.com.my" icon="" lat="4" lng="103"/>
+	<marker name="RolaShades Pte Ltd" desc="static HTML/ CSS" url="www.rolashades.com" icon="" lat="3.6066246213236863" lng="102.28408813476562"/>
+	<marker name="Asean Connect" desc="Joomla 1.0.x/ PHP/ MySql/ CSS" url="www.aseanconnect.gov.my" icon="pink" lat="3.4668157512808078" lng="102.49969482421875"/>
+	<marker name="Street Clicks F09" desc="Joomla 1.0.x/ PHP/ MySql" url="www.streetclicks.net" icon="pink" lat="3.080180314674537" lng="102.24838256835938"/>
+	<marker name="Qurban Online F09" desc="Wordpress/ PHP/ CSS/ Photoshop Design" url="www.qurbanonline.com" icon="green" lat="2.9142394645624554" lng="101.88995361328125"/>
+	<marker name="Earth Guide" desc="Joomla 1.5.x/ PHP/ MySql/ CSS/ JQuery/ Gmap" url="www.earthguide.com.my" icon="" lat="3.351663477428642" lng="102.47772216796875"/>
+	<marker name="SKK F09" desc="Joomla 1.0.x/ PHP/ MySql/ CSS" url="www.skk.net" icon="" lat="5" lng="102"/>
+	<marker name="W K Gahn Financial Portal" desc="Joomla 1.0.x/ PHP/ MySql/ CSS" url="www.wkgahn.com" icon="" lat="5" lng="102"/>
+	<marker name="Season Collections" desc="Joomla 1.5.x/ PHP/ MySql/ CSS/ Photoshop Design" url="www.seasoncollections.com" icon="" lat="2.5328965169596698" lng="102.54638671875"/>
+	<marker name="India Progressive Party Malaysia" desc="Joomla 1.5.x/ PHP/ MySql/ CSS/ Photoshop Design" url="www.ipfonline.com.my" icon="yellow" lat="2.6" lng="102"/>
+	<marker name="Despark Auto" desc="Joomla 1.5.x/ PHP/ MySql/ CSS" url="www.desparkauto.edu.my" icon="" lat="2.6" lng="102.8"/>
+	<marker name="Seri Melmax F08" desc="Joomla 1.5.x/ PHP/ MySql/ CSS/ Photoshop Design" url="www.serimelmax.com.my" icon="" lat="2.269456386631507" lng="103.20693969726562"/>
+	<marker name="Gold Medal Sports Trading" desc="Joomla 1.5.x/ PHP/ MySql/ CSS" url="www.gmtt.net" icon="" lat="1.9002862838753904" lng="103.29002380371094"/>
+	<marker name="Vista Saji F08" desc="Joomla 1.5.x/ PHP/ MySql/ CSS/ JQuery/ Flash/ Photoshop Design" url="www.vistasaji.com.my" icon="yellow" lat="1.6600765219740536" lng="103.80088806152344"/>
+	<marker name="Asias Network" desc="Joomla 1.5.x/ PHP/ MySql/ CSS/ Photoshop Design" url="www.asiasnetwork.com" icon="" lat="1.502208236347297" lng="103.56468200683594"/>
+	<marker name="Treats2u F05" desc="Joomla 1.5.x/ PHP/ MySql/ CSS" url="www.treats2u.com.my" icon="" lat="1.3820833564366672" lng="110.59112548828125"/>
+	<marker name="Modiezham" desc="Joomla 1.5.x/ PHP/ MySql/ CSS/ Photoshop Design" url="www.modiezham.com" icon="green" lat="1.4665146521435448" lng="110.07614135742188"/>
+	<marker name="Felda Rally Team (staging)" desc="Joomla 1.5.x/ PHP/ MySql/ CSS/ JQuery" url="www.feldarallyteam.com.my" icon="" lat="1.5931555663451105" lng="109.92061614990234"/>
+	<marker name="Atari Koi (staging)" desc="Joomla 1.5.x/ PHP/ MySql/ CSS/ JQuery" url="cv2.com.my/staging/koi2" icon="yellow" lat="1.5375580383182224" lng="110.33371925354004"/>
+	<marker name="Tiger FC F09(enhancement)" desc="PHP/ MySql/ CSS" url="www.tigerfc.com.my" icon="green" lat="1.4291044194878293" lng="111.55242919921875"/>
+	<marker name="Tiger Beer Malaysia" desc="Joomla 1.5.x/ PHP/ MySql/ CSS/ JQuery" url="www.tigerbeer.com.my" icon="" lat="1.7664589822714587" lng="111.3735580444336"/>
+	<marker name="Biotropics Malaysia" desc="PHP/ MySql/ CSS/ Javascript" url="www.biotropicsmalaysia.com" icon="" lat="1.9551868337565232" lng="111.44187927246094"/>
+	<marker name="Rainforest Malaysia (backend)" desc="PHP/ MySql" url="www.rainforestmalaysia.com" icon="yellow" lat="2.1068401165728576" lng="111.74400329589844"/>
+	<marker name="Ramuan Malaysia" desc="PHP/ MySql/ CSS/ JQuery" url="www.ramuanmalaysia.com" icon="yellow" lat="3.1909932295018035" lng="113.08545112609863"/>
+	<marker name="Alliance Bank Younique Credit Card" desc="" url="younique.alliancebank.com.my" icon="" lat="3.190650439003444" lng="113.0632209777832"/>
+	<marker name="The G City Club Hotel" desc="PHP/ MySql/ CSS/ JQuery" url="www.thegcityclubhotel.com" icon="" lat="3.7840959761525386" lng="113.83277893066406"/>
+	<marker name="rednblack F09" desc="PHP/ MySql" url="www.rednblack.com.my" icon="pink" lat="4.064189661716641" lng="113.83895874023438"/>
+	<marker name="Alliance Bank Debit Card" desc="PHP/ MySql/ CSS/ JQuery" url="www.my.alliancedebitcard.com" icon="" lat="3.8096173810199594" lng="113.74591827392578"/>
+	<marker name="Strongbow" desc="PHP/ CSS/ JQuery" url="www.strongbow.my" icon="pink" lat="4.425401001071096" lng="114.03182029724121"/>
+	<marker name="Paulaner" desc="PHP/ CSS/ JQuery" url="www.paulaner.my" icon="" lat="5.939460360908088" lng="116.07776641845703"/>
+	<marker name="iliketiger FB App" desc="PHP/ MySql/ CSS/ JQuery/ FBML" url="apps.facebook.com/iliketiger" icon="" lat="5.969082928959599" lng="116.10540390014648"/>
+	<marker name="Shine At Work (backend)" desc="Joomla 1.5.x/ PHP/ MySql/ CSS/ JQuery/ FBML" url="www.shineatwork.com.my" icon="" lat="5.996399151937813" lng="116.12668991088867"/>
+	<marker name="happytilldeath FB App (phase 1)" desc="PHP/ MySql/ CSS/ Flash/ FBML" url="www.happytilldeath.com" icon="" lat="6.145845726616591" lng="116.24749660491943"/>
+	<marker name="Eyeball (campaign)" desc="" url="www.eyeball.com.my" icon="green" lat="5.917605225457482" lng="116.6360092163086"/>
+	<marker name="Malaysian Media Awards microsite skinning" desc="PHP/ CSS" url="mymsa.ipnhub.com/msa/index.php" icon="" lat="5.753664383168733" lng="116.81694030761719"/>
+	<marker name="WTH FB App (backend)" desc="PHP/ FBML" url="app.facebook.com/wth_avril" icon="pink" lat="5.842983935082689" lng="118.03041458129883"/>
+	<marker name="Al-Rajhi Bank (improvement)" desc="HTML/ CSS/ JQuery" url="www.alrajhibank.com.my" icon="green" lat="5.863134376597602" lng="118.06869506835938"/>
+	<marker name="AEON F11 (staging)" desc="HTML/ CSS/ JQuery" url="www.amphibiadigital.com.my/_staging/aeon/2011revamp" icon="green" lat="5.793970940742015" lng="117.7957534790039"/>
+	<marker name="Seven Sunday Films" desc="HTML/ CSS/ JQuery" url="www.sevensundayfilms.com" icon="blue" lat="5.9716865652698035" lng="116.10076904296875"/>
+	<marker name="Guocera (improvement)" desc="HTML/ CSS/ JQuery" url="www.guocera.com" icon="pink" lat="5.948594867735224" lng="116.0784101486206"/>
+</markers>
