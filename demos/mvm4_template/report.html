@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/mvm-styles.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="css/toggles.css" rel="stylesheet">
+    <link href="css/toggles-light.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+
+
+    </style>
+  </head>
+  <body>
+
+  <div class="page_container opaque-0">
+  <div class="header-notifications">
+<!-- Dropdown: Notifications -->
+    <div class="dropdown dropdown-custom">
+      <a href="#" class="fa fa-bell fa-lg dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"></a>
+      <div class="dropdown-menu dropdown-menu-right" role="menu">
+        <h4 class="title">Notifications</h4>
+        <ul class="list-custom">
+          <li class="row"><div class="col-auto"><span class="fa fa-exclamation-triangle text-red"></span></div><div class="col-auto width300 elipsis bold">Ut enim ad minim veniam enim ad minim veniam<span class="timestamp">3 minutes ago</span></div></li>
+          <li class="row"><div class="col-auto"><span class="fa fa-exclamation-triangle text-yellow"></span></div><div class="col-auto width300 elipsis bold">Sed ut perspiciatis unde omnis iste natus enim ad minim veniam<span class="timestamp">5 minutes ago</span></div></li>
+          <li class="row"><div class="col-auto"><span class="fa fa-exclamation-triangle text-green"></span></div><div class="col-auto width300 elipsis bold">Nemo enim ipsam voluptatem quia voluptas enim ad minim veniam<span class="timestamp">Yesterday</span></div></li>
+          <li class="row"><div class="col-auto"><span class="fa fa-exclamation-triangle"></span></div><div class="col-auto width300 elipsis bold">Neque porro quisquam est, qui dolorem enim ad minim veniam<span class="timestamp">Yesterday</span></div></li>
+          <li class="row"><div class="col-auto"><span class="fa fa-ticket"></span></div><div class="col-auto width300 elipsis bold">Quis nostrud exercitation ullamco laboris enim ad minim veniam<span class="timestamp">Last Week</span></div></li>
+        </ul>
+      </div>
+    </div>
+<!-- Dropdown: Messages -->
+    <div class="dropdown dropdown-custom">
+      <a href="#" class="fa fa-comment fa-lg dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"></a>
+      <div class="dropdown-menu dropdown-menu-right" role="menu">
+        <h4 class="title">Recent Messages</h4>
+        <ul class="list-custom">
+          <li class="row">
+            <div class="col-auto"><span class="fa fa-comment"></span></div>
+            <div class="col-auto width300 elipsis bold">Ut enim ad minim veniam<span class="timestamp">3 minutes ago</span></div>
+          </li>
+          <li class="row read">
+            <div class="col-auto"><span class="fa fa-comment"></span></div>
+            <div class="col-auto width300 elipsis bold">Sed ut perspiciatis unde omnis iste natus<span class="timestamp">5 minutes ago</span></div>
+          </li>
+          <li class="row">
+            <div class="col-auto"><span class="fa fa-envelope"></span></div>
+            <div class="col-auto width300 elipsis bold">Nemo enim ipsam voluptatem quia voluptas<span class="timestamp">Yesterday</span></div>
+          </li>
+          <li class="row read">
+            <div class="col-auto"><span class="fa fa-envelope"></span></div>
+            <div class="col-auto width300 elipsis bold">Neque porro quisquam est, qui dolorem<span class="timestamp">Yesterday</span></div>
+          </li>
+          <li class="row">
+            <div class="col-auto"><span class="fa fa-envelope-o"></span></div>
+            <div class="col-auto width300 elipsis bold">Quis nostrud exercitation ullamco laboris<span class="timestamp">Last Week</span></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+<!-- Dropdown: Account Settings -->
+    <div class="dropdown dropdown-custom">
+      <a href="#" class="fa fa-user fa-lg dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"></a>
+      <div class="dropdown-menu dropdown-menu-right" role="menu">
+        <h4 class="title">Account Info</h4>
+        <div class="row-custom">
+          <div class="col-auto"><span class="profile-pic"><img src="images/profile.jpg"></span></div>
+          <div class="col-auto">
+            <div class="col1">Charles Bukowski</div>
+            <div class="col1">Administrator</div>
+          </div>                
+        </div>
+        
+        <div class="row-custom divider"></div>
+        <div class="row-custom">
+          <div class="col2 uppercase">Account Type:</div>
+          <div class="col-auto">Professional Version</div>                
+        </div>
+        <div class="row-custom">
+          <div class="col2 uppercase">Account Validity:</div>
+          <div class="col-auto">20/03/2012 - 21/03/2015</div>                
+        </div>
+
+        <div class="row-custom center-col top-20">
+          <div class="col2"><a href="#" type="button" class="btn btn-default uppercase"><span class="fa fa-pencil"></span>Account Setting</a></div>
+          <div class="col2"><a href="#" type="button" class="btn btn-default uppercase"><span class="fa fa-unlock"></span>Logout</a></div>                
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav>
+    <div class="main-menu"><a href="#burger-menus" class="fa fa-bars fa-lg" id="burger-menus"></a></div>
+    <div class="header">
+        <div class="col3 header-title"><h3 class="bebas_neu">Page Title</h3></div>    
+        <div class="col3 header-logo"></div>    
+    </div>
+  </nav>
+
+
+    <div id="wrapper" class="toggled">
+    <div class="shadow"></div>
+<!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand"><a href="#">Dashboard</a></li>
+                <li><a href="#">Add Widget</a></li>
+                <li class="sidebar-brand"><a href="#">Maps</a></li>
+                <li><a href="#">Add Map</a></li>
+                <li><a href="#">Settings</a></li>
+                <li class="sidebar-brand-active"><a href="#">Reports</a></li>
+                <li><a href="#">Add Report</a></li>
+                <li><a href="#">Add Widget</a></li>
+                <li><a href="#">Settings</a></li>
+                <li class="sidebar-brand"><a href="#">Notifications</a></li>
+                <li><a href="#">Alerts</a></li>
+                <li><a href="#">Tickets</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">Settings</a></li>
+                <li class="sidebar-brand"><a href="#">Control Center</a></li>
+                <li><a href="#">Daily Tasks</a></li>
+                <li><a href="#">History Logs</a></li>
+                <li><a href="#">Settings</a></li>
+                <li class="sidebar-brand"><a href="#">Help</a></li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+<!-- ### Start Main Page -->
+
+<!-- Section Maps -->
+        <div id="page-content-wrapper" class="full-width">
+          <div id="page-reports" class="page-container full-height">
+              <div class="tools">
+    <!-- Maps Menus -->
+                <div class="section-menus">
+    <!-- Dropdown: Share -->
+                    <div class="section-menus-item dropdown dropdown-custom">
+                      <a href="#" class="fa fa-share-alt dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false"></a>
+                      <div class="dropdown-menu dropdown-menu-right width-auto" role="menu">
+                        <h4 class="title">Share This Map</h4>
+                        <ul class="list-custom">
+                          <li class="row">
+                            <div class="col-auto"><span class="fa fa-print"></span></div>
+                            <div class="col-auto">Print</div>
+                          </li>
+                          <li class="row">
+                            <div class="col-auto"><span class="fa fa-envelope"></span></div>
+                            <div class="col-auto">Email</div>
+                          </li>
+                          <li class="row">
+                            <div class="col-auto"><span class="fa fa-unlock-alt"></span></div>
+                            <div class="col-auto">Allow Access</div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+    <!-- Dropdown: Maps Settings -->
+                    <div class="section-menus-item">
+                      <a href="#" class="fa fa-pencil" role="button"></a>
+                    </div>
+    <!-- Dropdown: Toggle List-Map -->
+                    <div class="section-menus-item">
+                      <a href="#" class="fa fa-eye" role="button"></a>
+                    </div>
+                </div>              
+              </div>
+
+  <!-- Map List View -->
+              <div class="content-list-view toggle-list-container active">
+
+                <div class="search">
+  <!-- Search Bar -->
+                  <div class="search-bar">
+                    <input class="searchbox form-control" type="search" placeholder="Search...">
+                    <a href="#" class="fa fa-search search-button" role="button"></a>
+                    <a href="#" class="fa fa-ellipsis-v search-menus" role="button" data-target="search-advance"></a>
+                    <a href="#" class="fa fa-filter search-menus" role="button" data-target="search-filter"></a>
+                    <div class="clear"></div>  
+                  </div>                  
+  <!-- Search Filter -->
+                  <div class="search-filter search-toggle hide">
+                    <div class="box-container">
+                      <div class="row-custom">
+                          <select name="select" class="form-control selectbox">
+                            <option>Filter search by...</option>
+                            <option value="one">Speed</option>
+                            <option value="two">CMG</option>
+                            <option value="three">Vessel Name</option>
+                          </select>
+                          <a href="#" class="fa fa-arrow-circle-up search-advance-button" role="button"></a>
+                          <a href="#" class="fa fa-arrow-circle-down" role="button"></a>
+                      </div>
+                    </div>
+
+                  <!-- <div class="clear tools-shadow"></div> -->
+                    <div class="clear"></div>
+                  </div>                    
+  <!-- Advance Search -->
+                  <div class="search-advance search-toggle hide">
+                    <div class="box-container">
+                      <h4 class="title">Advance Search</h4>
+                      <div class="row-custom">
+
+                        <div class="col4"><div class="toggle toggle-light" data-toggle-height="24" data-toggle-width="72"></div></div>
+                        <div class="col4">Company</div>
+                        <div class="col4"><div class="toggle toggle-light" data-toggle-height="24" data-toggle-width="72"></div></div>
+                        <div class="col4">Company</div>
+
+                      </div>
+                      <div class="row-custom">
+                        <div class="col2">
+                          <label class="r-col3">Departure</label>
+                          <select name="select" class="form-control r-col3-1">
+                            <option>Please Select...</option>
+                            <option value="one">One</option>
+                            <option value="two">Two</option>
+                            <option value="three">Three</option>
+                          </select>
+                        </div>
+                        <div class="col2">
+                          <label class="r-col3">Arrival</label>
+                          <select name="select" class="form-control r-col3-1">
+                            <option>Please Select...</option>
+                            <option value="one">One</option>
+                            <option value="two">Two</option>
+                            <option value="three">Three</option>
+                          </select>
+                        </div>                      
+                      </div>
+                      <div class="row-custom">
+                        <div class="col2">
+                          <label class="r-col3">From</label>
+                          <select name="select" class="form-control r-col3-1">
+                            <option>Please Select...</option>
+                            <option value="one">One</option>
+                            <option value="two">Two</option>
+                            <option value="three">Three</option>
+                          </select>
+                        </div>
+                        <div class="col2">
+                          <label class="r-col3">To</label>
+                          <select name="select" class="form-control r-col3-1">
+                            <option>Please Select...</option>
+                            <option value="one">One</option>
+                            <option value="two">Two</option>
+                            <option value="three">Three</option>
+                          </select>
+                        </div>                      
+                      </div>
+                    </div>
+
+                  <!-- <div class="clear tools-shadow"></div> -->
+                    <div class="clear"></div>
+                  </div>
+                    
+                </div>
+
+  <!-- Report Listing --> 
+                  <div class="list-y-scroll">
+                    <div class="clear tools-shadow"></div>
+                    <div class="box-container">
+                      <ul class="content-list list-item">
+
+                        <li class="row-custom noselect">
+                          <div class="list-properties fa fa-cogs hide"></div>
+                          <div class="list-menus hide">
+                            <div class="list-menus-inner">
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-exchange fa-lg"></span></div>
+                                <div class="col-auto">Poll</div>
+                              </div>
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-envelope fa-lg"></span></div>
+                                <div class="col-auto">Send Email</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col10"><div class="fa fa-bar-chart list-icon"></div></div>
+                          <ul class="col10-1 list"> 
+                            <li class="title row-custom">Report #1</li>
+                            <li class="description row-custom">Idque primis an mea, ne sit vulputate pertinacia, usu ne  has exerci praesent</li>
+                            <li><div class="col4">Created Date:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                            <li><div class="col4">Last Update:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                          </ul>
+                        </li> 
+
+                        <li class="row-custom noselect">
+                          <div class="list-properties fa fa-cogs hide"></div>
+                          <div class="list-menus hide">
+                            <div class="list-menus-inner">
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-exchange fa-lg"></span></div>
+                                <div class="col-auto">Poll</div>
+                              </div>
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-envelope fa-lg"></span></div>
+                                <div class="col-auto">Send Email</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col10"><div class="fa fa-tachometer list-icon"></div></div>
+                          <ul class="col10-1 list"> 
+                            <li class="title row-custom">Report #1</li>
+                            <li class="description row-custom">Idque primis an mea, ne sit vulputate pertinacia, usu ne  has exerci praesent</li>
+                            <li><div class="col4">Created Date:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                            <li><div class="col4">Last Update:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                          </ul>
+                        </li>
+
+                        <li class="row-custom noselect">
+                          <div class="list-properties fa fa-cogs hide"></div>
+                          <div class="list-menus hide">
+                            <div class="list-menus-inner">
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-exchange fa-lg"></span></div>
+                                <div class="col-auto">Poll</div>
+                              </div>
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-envelope fa-lg"></span></div>
+                                <div class="col-auto">Send Email</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col10"><div class="fa fa-tachometer list-icon"></div></div>
+                          <ul class="col10-1 list"> 
+                            <li class="title row-custom">Report #1</li>
+                            <li class="description row-custom">Idque primis an mea, ne sit vulputate pertinacia, usu ne  has exerci praesent</li>
+                            <li><div class="col4">Created Date:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                            <li><div class="col4">Last Update:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                          </ul>
+                        </li>
+
+                        <li class="row-custom noselect">
+                          <div class="list-properties fa fa-cogs hide"></div>
+                          <div class="list-menus hide">
+                            <div class="list-menus-inner">
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-exchange fa-lg"></span></div>
+                                <div class="col-auto">Poll</div>
+                              </div>
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-envelope fa-lg"></span></div>
+                                <div class="col-auto">Send Email</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col10"><div class="fa fa-tachometer list-icon"></div></div>
+                          <ul class="col10-1 list"> 
+                            <li class="title row-custom">Report #1</li>
+                            <li class="description row-custom">Idque primis an mea, ne sit vulputate pertinacia, usu ne  has exerci praesent</li>
+                            <li><div class="col4">Created Date:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                            <li><div class="col4">Last Update:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                          </ul>
+                        </li>
+
+                        <li class="row-custom noselect">
+                          <div class="list-properties fa fa-cogs hide"></div>
+                          <div class="list-menus hide">
+                            <div class="list-menus-inner">
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-exchange fa-lg"></span></div>
+                                <div class="col-auto">Poll</div>
+                              </div>
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-envelope fa-lg"></span></div>
+                                <div class="col-auto">Send Email</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col10"><div class="fa fa-tachometer list-icon"></div></div>
+                          <ul class="col10-1 list"> 
+                            <li class="title row-custom">Report #1</li>
+                            <li class="description row-custom">Idque primis an mea, ne sit vulputate pertinacia, usu ne  has exerci praesent</li>
+                            <li><div class="col4">Created Date:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                            <li><div class="col4">Last Update:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                          </ul>
+                        </li>
+
+                        <li class="row-custom noselect">
+                          <div class="list-properties fa fa-cogs hide"></div>
+                          <div class="list-menus hide">
+                            <div class="list-menus-inner">
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-exchange fa-lg"></span></div>
+                                <div class="col-auto">Poll</div>
+                              </div>
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-envelope fa-lg"></span></div>
+                                <div class="col-auto">Send Email</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col10"><div class="fa fa-bar-chart list-icon"></div></div>
+                          <ul class="col10-1 list"> 
+                            <li class="title row-custom">Report #1</li>
+                            <li class="description row-custom">Idque primis an mea, ne sit vulputate pertinacia, usu ne  has exerci praesent</li>
+                            <li><div class="col4">Created Date:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                            <li><div class="col4">Last Update:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                          </ul>
+                        </li>
+
+                        <li class="row-custom noselect">
+                          <div class="list-properties fa fa-cogs hide"></div>
+                          <div class="list-menus hide">
+                            <div class="list-menus-inner">
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-exchange fa-lg"></span></div>
+                                <div class="col-auto">Poll</div>
+                              </div>
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-envelope fa-lg"></span></div>
+                                <div class="col-auto">Send Email</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col10"><div class="fa fa-bar-chart list-icon"></div></div>
+                          <ul class="col10-1 list"> 
+                            <li class="title row-custom">Report #1</li>
+                            <li class="description row-custom">Idque primis an mea, ne sit vulputate pertinacia, usu ne  has exerci praesent</li>
+                            <li><div class="col4">Created Date:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                            <li><div class="col4">Last Update:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                          </ul>
+                        </li>
+
+                        <li class="row-custom noselect">
+                          <div class="list-properties fa fa-cogs hide"></div>
+                          <div class="list-menus hide">
+                            <div class="list-menus-inner">
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-exchange fa-lg"></span></div>
+                                <div class="col-auto">Poll</div>
+                              </div>
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-envelope fa-lg"></span></div>
+                                <div class="col-auto">Send Email</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col10"><div class="fa fa-bar-chart list-icon"></div></div>
+                          <ul class="col10-1 list"> 
+                            <li class="title row-custom">Report #1</li>
+                            <li class="description row-custom">Idque primis an mea, ne sit vulputate pertinacia, usu ne  has exerci praesent</li>
+                            <li><div class="col4">Created Date:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                            <li><div class="col4">Last Update:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                          </ul>
+                        </li>
+
+                        <li class="row-custom noselect">
+                          <div class="list-properties fa fa-cogs hide"></div>
+                          <div class="list-menus hide">
+                            <div class="list-menus-inner">
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-exchange fa-lg"></span></div>
+                                <div class="col-auto">Poll</div>
+                              </div>
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-envelope fa-lg"></span></div>
+                                <div class="col-auto">Send Email</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col10"><div class="fa fa-bar-chart list-icon"></div></div>
+                          <ul class="col10-1 list"> 
+                            <li class="title row-custom">Report #1</li>
+                            <li class="description row-custom">Idque primis an mea, ne sit vulputate pertinacia, usu ne  has exerci praesent</li>
+                            <li><div class="col4">Created Date:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                            <li><div class="col4">Last Update:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                          </ul>
+                        </li>
+
+                        <li class="row-custom noselect">
+                          <div class="list-properties fa fa-cogs hide"></div>
+                          <div class="list-menus hide">
+                            <div class="list-menus-inner">
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-exchange fa-lg"></span></div>
+                                <div class="col-auto">Poll</div>
+                              </div>
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-envelope fa-lg"></span></div>
+                                <div class="col-auto">Send Email</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col10"><div class="fa fa-bar-chart list-icon"></div></div>
+                          <ul class="col10-1 list"> 
+                            <li class="title row-custom">Report #1</li>
+                            <li class="description row-custom">Idque primis an mea, ne sit vulputate pertinacia, usu ne  has exerci praesent</li>
+                            <li><div class="col4">Created Date:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                            <li><div class="col4">Last Update:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                          </ul>
+                        </li>
+
+                        <li class="row-custom noselect">
+                          <div class="list-properties fa fa-cogs hide"></div>
+                          <div class="list-menus hide">
+                            <div class="list-menus-inner">
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-exchange fa-lg"></span></div>
+                                <div class="col-auto">Poll</div>
+                              </div>
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-envelope fa-lg"></span></div>
+                                <div class="col-auto">Send Email</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col10"><div class="fa fa-bar-chart list-icon"></div></div>
+                          <ul class="col10-1 list"> 
+                            <li class="title row-custom">Report #1</li>
+                            <li class="description row-custom">Idque primis an mea, ne sit vulputate pertinacia, usu ne  has exerci praesent</li>
+                            <li><div class="col4">Created Date:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                            <li><div class="col4">Last Update:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                          </ul>
+                        </li>
+
+                        <li class="row-custom noselect">
+                          <div class="list-properties fa fa-cogs hide"></div>
+                          <div class="list-menus hide">
+                            <div class="list-menus-inner">
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-exchange fa-lg"></span></div>
+                                <div class="col-auto">Poll</div>
+                              </div>
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-envelope fa-lg"></span></div>
+                                <div class="col-auto">Send Email</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col10"><div class="fa fa-tachometer list-icon"></div></div>
+                          <ul class="col10-1 list"> 
+                            <li class="title row-custom">Report #1</li>
+                            <li class="description row-custom">Idque primis an mea, ne sit vulputate pertinacia, usu ne  has exerci praesent</li>
+                            <li><div class="col4">Created Date:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                            <li><div class="col4">Last Update:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                          </ul>
+                        </li>
+
+                        <li class="row-custom noselect">
+                          <div class="list-properties fa fa-cogs hide"></div>
+                          <div class="list-menus hide">
+                            <div class="list-menus-inner">
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-exchange fa-lg"></span></div>
+                                <div class="col-auto">Poll</div>
+                              </div>
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-envelope fa-lg"></span></div>
+                                <div class="col-auto">Send Email</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col10"><div class="fa fa-tachometer list-icon"></div></div>
+                          <ul class="col10-1 list"> 
+                            <li class="title row-custom">Report #1</li>
+                            <li class="description row-custom">Idque primis an mea, ne sit vulputate pertinacia, usu ne  has exerci praesent</li>
+                            <li><div class="col4">Created Date:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                            <li><div class="col4">Last Update:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                          </ul>
+                        </li>
+
+                        <li class="row-custom noselect">
+                          <div class="list-properties fa fa-cogs hide"></div>
+                          <div class="list-menus hide">
+                            <div class="list-menus-inner">
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-exchange fa-lg"></span></div>
+                                <div class="col-auto">Poll</div>
+                              </div>
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-envelope fa-lg"></span></div>
+                                <div class="col-auto">Send Email</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col10"><div class="fa fa-tachometer list-icon"></div></div>
+                          <ul class="col10-1 list"> 
+                            <li class="title row-custom">Report #1</li>
+                            <li class="description row-custom">Idque primis an mea, ne sit vulputate pertinacia, usu ne  has exerci praesent</li>
+                            <li><div class="col4">Created Date:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                            <li><div class="col4">Last Update:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                          </ul>
+                        </li>
+
+                        <li class="row-custom noselect">
+                          <div class="list-properties fa fa-cogs hide"></div>
+                          <div class="list-menus hide">
+                            <div class="list-menus-inner">
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-exchange fa-lg"></span></div>
+                                <div class="col-auto">Poll</div>
+                              </div>
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-envelope fa-lg"></span></div>
+                                <div class="col-auto">Send Email</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col10"><div class="fa fa-tachometer list-icon"></div></div>
+                          <ul class="col10-1 list"> 
+                            <li class="title row-custom">Report #1</li>
+                            <li class="description row-custom">Idque primis an mea, ne sit vulputate pertinacia, usu ne  has exerci praesent</li>
+                            <li><div class="col4">Created Date:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                            <li><div class="col4">Last Update:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                          </ul>
+                        </li>
+
+                        <li class="row-custom noselect">
+                          <div class="list-properties fa fa-cogs hide"></div>
+                          <div class="list-menus hide">
+                            <div class="list-menus-inner">
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-exchange fa-lg"></span></div>
+                                <div class="col-auto">Poll</div>
+                              </div>
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-envelope fa-lg"></span></div>
+                                <div class="col-auto">Send Email</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col10"><div class="fa fa-tachometer list-icon"></div></div>
+                          <ul class="col10-1 list"> 
+                            <li class="title row-custom">Report #1</li>
+                            <li class="description row-custom">Idque primis an mea, ne sit vulputate pertinacia, usu ne  has exerci praesent</li>
+                            <li><div class="col4">Created Date:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                            <li><div class="col4">Last Update:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                          </ul>
+                        </li>
+
+                        <li class="row-custom noselect">
+                          <div class="list-properties fa fa-cogs hide"></div>
+                          <div class="list-menus hide">
+                            <div class="list-menus-inner">
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-exchange fa-lg"></span></div>
+                                <div class="col-auto">Poll</div>
+                              </div>
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-envelope fa-lg"></span></div>
+                                <div class="col-auto">Send Email</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col10"><div class="fa fa-tachometer list-icon"></div></div>
+                          <ul class="col10-1 list"> 
+                            <li class="title row-custom">Report #1</li>
+                            <li class="description row-custom">Idque primis an mea, ne sit vulputate pertinacia, usu ne  has exerci praesent</li>
+                            <li><div class="col4">Created Date:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                            <li><div class="col4">Last Update:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                          </ul>
+                        </li>
+
+                        <li class="row-custom noselect">
+                          <div class="list-properties fa fa-cogs hide"></div>
+                          <div class="list-menus hide">
+                            <div class="list-menus-inner">
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-exchange fa-lg"></span></div>
+                                <div class="col-auto">Poll</div>
+                              </div>
+                              <div class="col-auto-inline">
+                                <div class="col-auto"><span class="fa fa-envelope fa-lg"></span></div>
+                                <div class="col-auto">Send Email</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col10"><div class="fa fa-tachometer list-icon"></div></div>
+                          <ul class="col10-1 list"> 
+                            <li class="title row-custom">Report #1</li>
+                            <li class="description row-custom">Idque primis an mea, ne sit vulputate pertinacia, usu ne  has exerci praesent</li>
+                            <li><div class="col4">Created Date:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                            <li><div class="col4">Last Update:</div><div class="col4-1">12/10/2014, 5:11:52 AM GMT+8</div></li>
+                          </ul>
+                        </li>
+
+
+                        <!-- Bottom Padding -->
+                        <li class="row-custom spacer-20"></li>
+                      </ul>                    
+                    </div>
+                  </div>
+             
+              </div>
+
+  <!-- Full Map View -->
+          <div class="report-container">
+
+          <div class="report-details">
+            <h4 class="title">Report #2</h4>
+            <div class="details">Idque primis an mea, ne sit vulputate pertinacia, usu ne tota electram neces
+  sitatibus. Duo ne recteque sapientem, causae vivendum dissentiet eos ei. Vix ei habemus patrioque philosophia, mei hinc debet munere ad. Putant salutatus eam id, mei noluisse pertinacia repudiandae ei, duo ex eius tibique.</div>
+            <dl>
+              <dt class="col3">Data Properties:</dt><dd class="col3-1">Weather, Wind, Tide</dd>
+              <dt class="col3">Type:</dt><dd class="col3-1">Daily Report</dd>
+              <dt class="col3">Timeframe:</dt><dd class="col3-1">20/03/2012 - 20/03/2013</dd>
+              <dt class="col3">Notification:</dt><dd class="col3-1">Email</dd>
+              <dt class="col3">Created Date:</dt><dd class="col3-1">12/10/2014, 5:11:52 AM GMT+8</dd>
+              <dt class="col3">Last Update:</dt><dd class="col3-1">12/10/2014, 5:11:52 AM GMT+8</dd>
+            </dl>
+          </div>
+                
+          </div>
+
+          </div>
+        </div>
+
+
+<!-- ### End Main Page -->
+    </div>
+    </div>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/toggles.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
