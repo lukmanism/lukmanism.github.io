@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Demo Checkout Frontend App</title>
+    <link rel="stylesheet" href="../scripts/vendor/jasmine-core/lib/jasmine-core/jasmine.css">
+  </head>
+  <body>
+    <script src="../scripts/vendor/requirejs/require.js"></script>
+    <script type="text/javascript">
+		require.config({
+			baseUrl: '../',
+			urlArgs: 'cb=' + Math.random(),
+			paths: {
+				jquery		: 'scripts/vendor/jquery/dist/jquery',
+				underscore	: 'scripts/vendor/underscore/underscore',
+				backbone	: 'scripts/vendor/backbone/backbone',
+				jasmine			: 'scripts/vendor/jasmine-core/lib/jasmine-core/jasmine',
+				'jasmine-html'	: 'scripts/vendor/jasmine-core/lib/jasmine-core/jasmine-html',
+				'jasmine-boot'	: 'scripts/vendor/jasmine-core/lib/jasmine-core/boot'
+			},
+			shim: {
+				'backbone': {
+		            deps: ['underscore', 'jquery'],
+		            exports: 'Backbone'
+		        },
+		        'underscore': {
+		            exports: '_'
+		        },
+				'jasmine-html': {
+					deps : ['jasmine']
+				},
+				'jasmine-boot': {
+					deps : ['jasmine', 'jasmine-html']
+				}
+			}
+		});
+
+		require([
+			'jasmine-html',
+			'jasmine-boot',
+		], function (){
+				require([
+					'backbone',
+					'underscore',
+					'tests/spec/tests',
+				], function(){
+					window.onload();
+				})
+			}
+		);
+    </script>
+  </body>
+</html>

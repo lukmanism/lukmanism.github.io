@@ -1,0 +1,84 @@
+<div class="box-button highlight">
+  <div class="title"><%= this.model.get('name') %></div>
+  <ul>
+    <li><a role="button" data-ad_id="<%= this.model.get('id') %>" href="#" class="edit" data-toggle="modal" data-target="#edit-<%= this.model.get('id') %>">Edit</a></li>
+    <li><a role="button" data-ad_id="<%= this.model.get('id') %>" href="#" class="preview" data-toggle="modal" data-target="#preview-<%= this.model.get('id') %>">Preview</a></li>
+    <li><a role="button" data-ad_id="<%= this.model.get('id') %>" href="#" class="remove">Remove</a></li>
+  </ul>
+</div>
+
+
+<div class="modal fade" id="preview-<%= this.model.get('id') %>">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">Preview <%= this.model.get('name') %></h4>
+      </div>
+      <div class="modal-body">
+
+
+        <div class="details">
+        	<div class="row">
+        		<div class="col-xs-6 col-md-6 col-lg-6">Label</div>
+        		<div class="col-xs-6 col-md-6 col-lg-6">Value</div>
+        	</div>
+        	<div class="row">
+        		<div class="col-xs-6 col-md-6 col-lg-6">Label</div>
+        		<div class="col-xs-6 col-md-6 col-lg-6">Value</div>
+        	</div>
+        	<div class="row">
+        		<div class="col-xs-6 col-md-6 col-lg-6">Label</div>
+        		<div class="col-xs-6 col-md-6 col-lg-6">Value</div>
+        	</div>
+        </div>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
+<div class="modal fade" id="edit-<%= this.model.get('id') %>">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">Edit <%= this.model.get('name') %></h4>
+      </div>
+      <div class="modal-body">
+      	<div class="form"><%
+			var form = this.model.get('formspec');
+			var form_len = form.length;
+			var input;
+
+			for (var i = 0; i < form_len; i++) {
+				form[i]['name']
+				var field = form[i];
+				if(field.type === 'textarea'){
+					input = '<textarea name="'+ field.name +'" class="form-control form-field type-textarea '+ field.class_name +'" rows="'+ field.rows +'" placeholder="'+ field.label +'" maxlength="'+ field.maxlength +'"></textarea>';
+				} else {
+					input = '<input type="'+ field.type +'" name="'+ field.name +'" placeholder="'+ field.label +'" value="" class="form-control form-field type-text '+ field.class_name +'">';
+					if(field.type === 'checkbox')
+						input = '<label>' + input + field.label + '</label>';
+				}
+				%><div class="row"><div class="col-xs-12 col-md-12 col-lg-12"><%= input %></div></div><%
+			}
+		%></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

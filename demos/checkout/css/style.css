@@ -1,0 +1,60 @@
+#navbar-header {
+	color: #fff;
+}
+.highlight{
+	background-color: #ffff99!important;
+	opacity: 0.9;
+}
+.right {
+	float: right;
+}
+.box-button {
+	border-radius: .3rem;
+	background-color: #eceeef;
+}
+.box-button .title {
+	font-weight: bold;
+	margin: 15px 15px 0px 15px;
+}
+.box-button ul {
+	margin: 0 10px;
+	padding: 0px;
+}
+.box-button ul li {
+	list-style: none;
+	display: inline-block;
+}
+.form .row {
+	margin-bottom: 20px;
+}
+.form label {
+	margin-bottom: 20px;
+}
+.red {
+	background-color: #f2dede;
+	border-color: #ebcccc;
+}
+.green {
+	background-color: #dff0d8;
+	border-color: #d0e9c6;
+}
+
+.advert-body {
+	height: auto;
+}
+
+@media (min-width: 544px) {
+	.advert-body { min-height: 185px;}
+}
+
+@media (min-width: 768px) {
+	.advert-body { min-height: 260PX;}
+}
+
+@media (min-width: 992px) {
+	.advert-body { min-height: 150px;}
+}
+
+@media (min-width: 1200px) {
+	.advert-body { min-height: 150px;}
+}
